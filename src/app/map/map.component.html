@@ -1,0 +1,8 @@
+<agm-map [zoom]="zoom" *ngIf="offices.length > 0">
+  <agm-marker *ngFor="let office of offices" [latitude]="office.latitude" [longitude]="office.longitude">
+    <agm-info-window>
+      <h3>{{office.name}}</h3>
+      <p>{{office.description}}</p>
+    </agm-info-window>
+  </agm-marker>
+</agm-map>

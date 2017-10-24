@@ -1,0 +1,10 @@
+.flex {
+   display: flex;
+   flex-direction: column;
+   height: 250px;
+   width: 250px;
+   float: left;
+   margin: 45px;
+   align-content: center;
+   text-align: center;
+}
